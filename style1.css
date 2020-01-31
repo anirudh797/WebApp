@@ -23,14 +23,14 @@ body{
 
 .back-wheel{
     left: 10px;
-    bottom: 400px;
+    bottom: 370px;
     position: absolute;
 
 }
 
 .front-wheel{
-    left: 236px;
-    bottom: 400px;
+    left: 226px;
+    bottom: 370px;
     position: absolute;
 
 }

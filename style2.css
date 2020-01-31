@@ -8,22 +8,22 @@
     position: relative;
     padding: 0 5px;
     display: flex;
-    height: 10px;
+    height: 20px;
     width: 500px;
     padding: 0;
     margin: 0;
   }
   
   .progress-value {
-    animation: load 25s normal forwards;
+    animation: load 18s normal forwards;
     box-shadow: 0 10px 40px -10px rgb(255, 255, 255);
     border-radius: 100px;
     background: rgba(17, 166, 224, 0.89);
-    height: 5px;
+    height: 14px;
     width: 0;
   }
   
   @keyframes load {
     0% { width: 0; }
-    100% { width: 68%; }
+    100% { width: 95%; }
   }
