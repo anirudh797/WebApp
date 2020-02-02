@@ -16,21 +16,21 @@ body{
     z-index: 2;
 }
 .wheel img{
-    height: 50px;
-    width: 50px;
+    height: 47px;
+    width: 47px;
     animation: wheel 1s linear infinite;
 }
 
 .back-wheel{
-    left: 10px;
-    bottom: 370px;
+    left: -100px;
+    bottom: 380px;
     position: absolute;
 
 }
 
 .front-wheel{
-    left: 226px;
-    bottom: 370px;
+    left: 96px;
+    bottom: 380px;
     position: absolute;
 
 }
@@ -43,5 +43,5 @@ body{
 
 .w3-card{
     background-color: #0f1111af;
-    height=100px;
+    height:362px;
 }

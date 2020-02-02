@@ -29,15 +29,16 @@ body {
   font-family: "Helvetica", Arial, sans-serif;
   display: block;
   width: 300px;
+  height: 300px;
   overflow: hidden;
-  border: 1px solid #D5D5D5;
+  border: 1px solid rgb(252, 243, 243);
   border-radius: 6px;
   font-weight: 100;
   margin: 0 auto;
 }
 
 .battery-title {
-  background: #4c4c4c url('bolt.png') no-repeat 95% 15px;
+  background: #131314ce url('bolt.png') no-repeat 95% 15px;
   color: #fff;
   font-size: .9em;
   line-height: 50px;

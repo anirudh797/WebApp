@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Map</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style1.css">
+	 <link rel="stylesheet" href="vendors/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendors/themify-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="vendors/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" href="vendors/selectFX/css/cs-skin-elastic.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+
+<!-- Sidebar -->
+<div class="w3-sidebar w3-light-grey w3-bar-block" style="width:20%">
+    <a href="index1.html" style="height:25%; background-color:#161818; color:#ffffff" class="w3-bar-item w3-button"><br><br><center><i class="material-icons w3-xxxlarge">
+        speed</i> <br> Overview</center></a>
+  <a href="index3.html" style="height:25%; background-color:#161818; color:#ffffff" class="w3-bar-item w3-button"><br><br><center><i class="material-icons w3-xxxlarge">
+    battery_charging_full
+    </i><br>Battery</center></a>
+  <a href="index2.html" style="height:25%;background-color:#faffff; color:#050505" class="w3-bar-item w3-button"><br><br><center><i class="material-icons w3-xxxlarge">
+    near_me
+    </i><br>Map</center></a>
+    <a href="chats.html" style="height:25%; background-color:#161818; color:#ffffff" class="w3-bar-item w3-button"><br><br><center><i class="material-icons w3-xxxlarge">
+      message
+      </i><br>Chat</center></a></div>
+
+
+	<div style="margin-left:22%" style="margin-bottom:40%">
+		
+		<div class="content mt-3">
+            <div class="animated fadeIn">
+
+
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="mb-3">Real Chart</h4>
+                                <div class="flot-container">
+                                    <div id="cpu-load" class="cpu-load"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+               </div>    
+	</div>	
+
+</body>
+   <script src="vendors/jquery/dist/jquery.min.js"></script>
+    <script src="vendors/popper.js/dist/umd/popper.min.js"></script>
+    <script src="vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <!--  flot-chart js -->
+    <script src="vendors/flot/excanvas.min.js"></script>
+    <script src="vendors/flot/jquery.flot.js"></script>
+    <script src="vendors/flot/jquery.flot.pie.js"></script>
+    <script src="vendors/flot/jquery.flot.time.js"></script>
+    <script src="vendors/flot/jquery.flot.stack.js"></script>
+    <script src="vendors/flot/jquery.flot.resize.js"></script>
+    <script src="vendors/flot/jquery.flot.crosshair.js"></script>
+    <script src="assets/js/init-scripts/flot-chart/curvedLines.js"></script>
+    <script src="assets/js/init-scripts/flot-chart/flot-tooltip/jquery.flot.tooltip.min.js"></script>
+    <script src="assets/js/init-scripts/flot-chart/flot-chart-init.js"></script>
+
+</html>
